@@ -3,7 +3,9 @@
 }*/
 
 body {
+  background-color: #bdc3c7;
   margin: 0;
+  font-family: Roboto;
 }
 
 a{
@@ -15,14 +17,23 @@ a{
 }
 
 .titulo {
+  background-color: white;
   margin: auto;
+  padding: 20px;
   font-size: 50px;
   text-align: center;
+  /*Como colocar imagenes en el sitio
+  background-image: url('ruta de la imagen');*/
 }
 
 #header ul {
+  background-color: black;
+  margin: 0;
   display: flex;
-  padding: 5px;
+  color: white;
+}
+
+#header ul a {
   color: white;
 }
 
