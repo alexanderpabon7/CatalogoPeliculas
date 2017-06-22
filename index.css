@@ -1,0 +1,75 @@
+/** {
+  border: 1px solid green;
+}*/
+
+body {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#header {
+  margin: 0;
+}
+
+.titulo {
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+}
+
+#header ul {
+  display: flex;
+  padding: 5px;
+  color: white;
+}
+
+#header ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+}
+
+#app-body{
+  width: 80%;
+  margin: 0 auto;
+  min-height: 75vh;
+}
+
+.tv-show{
+  width: 100%;
+  min-height: 210px;
+  height: auto;
+  overflow: hidden;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+.derecha {
+  float: right;
+  position: relative;
+}
+
+.izquierda {
+  float: left;
+  position: relative;
+}
+
+#app-footer{
+  width: 100%;
+  min-height: 10vh;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#app-footer p{
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 20px;
+  border-top: 3px solid black;
+}
